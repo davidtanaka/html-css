@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url('imagens/fundo.jpg') repeat-x fixed ;
+    
+}
+
+mais
+n {
+    position: relative;
+    height: 100vh;
+}
+.celular {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 625px;
+    width: 304px;
+
+    background: url('imagens/frame-iphone.png') no-repeat;
+    transform: translate(-50%, -50%);
+ 
+}
+
+.tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 471px;
+    
+
+}
+.icones img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0.400);
+}
+.icones {
+    text-align: right;
+}
+.icones img:hover {
+    border: 2px solid rgb(0, 0, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgb(20, 20, 255);
+    transition: transform .3s, border .4s;
+
+}

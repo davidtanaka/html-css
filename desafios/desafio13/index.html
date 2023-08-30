@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio de tabela</title>
+</head>
+<style>
+    #t {
+        text-align: right;
+    }
+    .tabela {
+        
+        text-align: center;
+        width: 400px;
+        height: 00px;
+        border-collapse: collapse ;
+    }
+    td {
+        vertical-align: top;
+        border: 1px solid black;
+        padding: 8px;
+    }
+</style>
+<body>
+    <table class="tabela">
+        
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="3n">3</td>
+                <td>4</td>
+
+
+            </tr>
+            
+        
+        <tbody>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td colspan="2" id="t">7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2n">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tbody>
+    </table>
+</body>
+</html>
